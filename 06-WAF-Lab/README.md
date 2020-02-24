@@ -80,3 +80,5 @@ notice that you are not allowed to access you ALB. since the traffic is com
 ![images](images/7205543d7b9f5e8b063fbe3a4b715446.png)
 
 You can try accessing the website via your phone or a different network and you will see that the web page will be successfully displayed.
+
+Proceed to the [next lab (Analyzing Cloud Trail Logs with Athena](../07-CT-Athena-Lab/README.md)
