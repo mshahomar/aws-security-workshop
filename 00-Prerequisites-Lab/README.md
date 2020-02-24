@@ -11,9 +11,9 @@ connection.
 
 ![images](images/d3c32b52f680b2710b9bb1a93c1407c1.png)
 
-3)  Key in *TechShift-KeyPair* in the name box.
+3)  Key in *SecurityImmersionDay* in the name box.
 
-![images](images/c4490616d6988656078799a2695d6b01.png)
+![images](https://github.com/czhc/aws-security-workshop/blob/master/images/screenshots/Screen%20Shot%202020-02-23%20at%2011.53.48%20AM.png)
 
 4)  Now you will be able to see the key pair in the console and it will be in your *Downloads* folder.
 
