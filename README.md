@@ -13,7 +13,7 @@ By doing this labs you will understand the basic services and security concepts 
 
 [3. Config Lab](03-Config-Lab/README.md)
 
-[4. KMS Lav](04-KMS-Lab/README.md)
+[4. KMS Lab](04-KMS-Lab/README.md)
 
 [5. Secrets Manager Lab](05-Secrets-Manager-Lab/README.md)
 
@@ -33,7 +33,7 @@ Set up your team name if you wish. To access te console click on __AWS Console__
 
 ![images](images/eeconsole.png)
 
-After that click on __Open Cosole__
+After that click on __Open Console__
 
 ![images](images/eeopenconsole.png)
 
