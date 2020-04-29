@@ -1,0 +1,23 @@
+# Detect and Automatically Remediate Unintended Permissions in Amazon S3 Object ACLs with CloudWatch Events
+## Solution overview
+
+The following diagram illustrates this post’s solution:
+
+1. An IAM or root user in your account makes a PutObjectAcl or PutObject call.
+2. S3 sends the corresponding API call event to both AWS CloudTrail and CloudWatch Events in near real time.
+3. A CloudWatch Events rule delivers the event to an AWS Lambda function.
+4. If the object is in a bucket in which all the objects need to be private and the object is not private anymore, the Lambda function makes a PutObjectAcl call to S3 to make the object private.
+
+![image](diagram.png)
+
+To detect the PutObjectAcl call and modify the ACL on the object, we need to:
+
+1. Turn on object-level logging in CloudTrail for the buckets we want to monitor.
+2. Create an IAM execution role to be used when the Lambda function is being executed so that Lambda can make API calls to S3 on my behalf.
+3. Create a Lambda function that receives the PutObjectAcl API call event, checks whether the call is for a monitored bucket, and, if so, ensures the object is private.
+4. Create a CloudWatch Events rule that matches the PutObjectAcl API call event and invokes the Lambda function created in the previous step.
+
+## Step 1: Create S3 Buckets
+
+1. Create an S3 bucket named *everything-must-be-private*. As the bucket name suggests, we want all the files in this bucket to be private.
+2. Create an S3 bucket named everything-must-be-private
