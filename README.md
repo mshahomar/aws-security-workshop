@@ -21,6 +21,8 @@ By doing this labs you will understand the basic services and security concepts 
 
 [7. Analyze CloudTrail logs with Athena Lab](07-CT-Athena-Lab/README.md)
 
+[8. Detect and Automatically Remediate Unintended Permissions in Amazon S3 Object ACLs with CloudWatch Events](https://aws.amazon.com/blogs/security/how-to-detect-and-automatically-remediate-unintended-permissions-in-amazon-s3-object-acls-with-cloudwatch-events/)
+
 ## How to login to your lab environment via Event Engine
 
 Before starting the labs yo will receive a hash key to access your AWS environment. You will key in this hash key in Event Engine.
