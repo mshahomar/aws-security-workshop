@@ -25,6 +25,8 @@ By doing this labs you will understand the basic services and security concepts 
 
 [9. Monitor Changes and Auto-Enable Logging in AWS CloudTrail](https://aws.amazon.com/blogs/mt/monitor-changes-and-auto-enable-logging-in-aws-cloudtrail/)
 
+[10. Rotating IAM Access Key](https://github.com/linuxacademy/content-lambda-boto3/tree/master/Security/Rotating-IAM-Access-Keys) (LinuxAcademy)
+
 
 ## How to login to your lab environment via Event Engine
 
